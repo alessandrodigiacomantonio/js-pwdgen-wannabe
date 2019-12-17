@@ -7,4 +7,4 @@ console.log(colore);
 var password = nome + cognome + colore + '19';
 document.write("<p>Perfetto, ora che sei entrato nello spirito medievale, possiamo fornirti la tua password personale per accedere al nostro Wi-FI, che nel tuo caso è: </p>");
 document.writeln(password);
-document.writeln("<p>Con i miei più sinceri ossequi, buona permanenza nel nostro Hotem Medieval!</>");
+document.writeln("<p>Con i miei più sinceri ossequi, buona permanenza nel nostro Hotel Medieval!</p>");

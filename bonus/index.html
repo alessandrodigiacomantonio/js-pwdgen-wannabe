@@ -20,7 +20,7 @@
       <h3 class="main__title title--h3 title">
         Generatore di password per chi, come me, non ha il mazzo di pensarne a di nuove ogni due per tre <i class="fas fa-glass-cheers"></i>
       </h3>
-      <form action="POST" name="pass_gen">
+      <form class="main__form" action="POST" name="pass_gen">
         <div class="form-group">
           <label for="name">Nome da sfaticato</label>
           <input id="name" type="text" class="form-control" name="name" placeholder="Scrivi il tuo nome, se ti va.. altrimenti nessuno ti costringe :D">
@@ -33,16 +33,18 @@
           <label for="color">Colore da sfaticato</label>
           <input id="color" type="text" class="form-control" name="color" placeholder="Scrivi un colore qualsiasi, il primo che ti viene in mente, così ti levi questo sbatti">
         </div>
-        <input type="button" value="Genera" class="btn btn-default"  onClick="Genera()">
+        <input id="genera" type="button" value="Genera" class="btn btn-default" onclick="passGen()">
       </form>
     </main>
     <footer class="footer">
-      <h4 class="footer__title title--h4 title">
-      </h4>
-      <div class="footer__image-wrapper">
-      </div>
-      <div id="password">
+      <p id="password" class="footer__password">
 
+      </p>
+      <div class="dis_flex">
+        <h4 class="footer__title title--h4 title">
+        </h4>
+        <div class="footer__image-wrapper">
+        </div>
       </div>
     </footer>
   </div>
