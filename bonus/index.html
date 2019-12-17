@@ -4,9 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>Password Gen</title>
 </head>
 <body>
+  <img src="https://nssdata.s3.amazonaws.com/images/galleries/18043/code-matrix.jpg" alt="background">
+  <div class="container">
+    <header class="header">
+    </header>
+    <main class="main">
+      <h3 class="main__title title--h3 title">
+        Generatore di password per chi, come me, non ha il mazzo di pensarne a di nuove ogni due per tre <i class="fas fa-glass-cheers"></i>
+      </h3>
+      <form action="POST" name="pass_gen">
+        <div class="form-group">
+          <label for="name">Nome da sfaticato</label>
+          <input id="name" type="text" class="form-control" placeholder="Scrivi il tuo nome, se ti va.. altrimenti nessuno ti costringe :D">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Cognome da sfaticato</label>
+          <input id="surname" type="text" class="form-control" placeholder="Scrivi il tuo cognome, se riesci a superare la pigrizia">
+        </div>
+        <div class="form-group">
+          <label for="color">Colore da sfaticato</label>
+          <input id="color" type="text" class="form-control" placeholder="Scrivi un colore qualsiasi, il primo che ti viene in mente, così ti levi questo sbatti">
+        </div>
+        <button type="submit" class="btn btn-default">Genera</button>
+      </form>
+    </main>
+    <footer>
+
+    </footer>
+  </div>
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
