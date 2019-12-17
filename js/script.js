@@ -5,6 +5,6 @@ console.log(cognome);
 var colore = prompt('Ohoh.! Proprio come immaginavo! Sai, dal colore preferito di una persona, si riesce a capire molto del suo carattere. Qual è il tuo?');
 console.log(colore);
 var password = name + cognome + colore + '19';
-document.write("<p>Perfetto, ora che sei entrato nello spirito medievale, possiamo fortirti la tua password personale per accedere al nostro Wi-FI, che nel tuo caso è: </p>");
+document.write("<p>Perfetto, ora che sei entrato nello spirito medievale, possiamo fornirti la tua password personale per accedere al nostro Wi-FI, che nel tuo caso è: </p>");
 document.writeln(password);
 document.writeln("<p>Con i miei più sinceri ossequi, buona permanenza nel nostro Hotem Medieval!</>");
